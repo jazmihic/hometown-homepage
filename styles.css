@@ -1,0 +1,138 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    color: #527232
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+.hero {
+    background-image: url("images/Monroe.png");
+    height: 200px;
+    background-size: cover;
+
+    padding: 10px 0 40px 0;
+    text-shadow: 5px 0px 10px #527232;
+    color: white
+}
+h1{
+    font-size: 50px
+}
+
+p{
+    font-size: 15px;
+    color: white
+}
+.bio p{
+    color: green
+}
+.activites{
+    border: 5px solid #fec52e;
+    display: flex;
+    flex-direction: column;  
+    color: #fec52e;
+    text-shadow: 2px 2px #527232 ;
+    height: 525px;
+    font-size: 25px;
+    background: linear-gradient(white, green)
+}
+span{
+    border-bottom: 5px solid #fec52e;
+    font-style: italic
+}
+.activites-img{
+    
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+}
+.river-card{
+    height: 300px;
+    width: 300px;
+}
+.river-card:hover{
+    color: green;
+    background: #fec52e;
+    height: 350px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+}
+
+.garden-card{
+    height: 300px;
+    width: 300px;
+}
+
+.garden-card:hover{
+    color: green;
+    background: #fec52e;
+    height: 350px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+}
+
+.family-card{
+    height: 300px;
+    width: 300px;
+}
+
+.family-card:hover{
+    color: green;
+    background: #fec52e;
+    height: 350px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+}
+.hide {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.hide:hover {
+  opacity: 1;
+}
+
+.bio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start; 
+    background: lightcyan;
+   margin: 5px auto 0px;
+    display: flex;
+    text-align: center;
+    background: #ddebf8;
+    color: #2b2839;
+    padding: 0px
+}
+.text{
+    margin-top: 40px;
+   height: 400px;
+    width: 300px; 
+}
+.avi {
+    border-radius: 50%;
+    margin-top: 75px
+}
+.avi:hover{
+    border: 5px dotted #fec52e
+}
